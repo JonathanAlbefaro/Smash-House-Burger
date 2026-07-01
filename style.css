@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --color0: #ffffff;
+    --color1: #ED8400;
+    --color2: #009DED;
+    --color3: #AD7937;
+    --color4:#829199d1;
+    --color5:#6e4f28a6;
+
+    --font-principal: "Roboto Mono", monospace, sans-serif;
+
+}
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body{
+    background-color: black;
+    font-family: var(--font-principal);
+}
+
+header{
+    background-color: var(--color5);
+    text-align: center;
+    height: 209px;
+    margin: 0px auto 40px auto;
+    min-width: 944px;
+    border-radius: 0px 0px ;
+    padding: 10px;
+    box-shadow: inset 14px 13px 10px 0px #00000021;
+}
+
+header h1{
+    font-size: 69px;
+    color: var(--color0);
+}
+
+
+
+
+p{
+    color: var(--color0);
+    padding: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 2em;
+    font-size: 20px;
+  
+    
+}
+
+nav{
+    border-color: black;
+    padding-top: 53px;
+    font-size: 30px;
+    min-width: 320px;
+}
+ nav > a{
+  padding: 50px;
+  text-decoration: none;
+   color: var(--color0);
+ }
+
+ nav > a:hover{
+    color: rgba(255, 255, 255, 0.74);
+    transition-duration: 5ms;    
+    
+ }
+
+main{
+    max-width: 1600px;
+    margin: auto;
+    
+}
+
+.largura{
+    max-width: 1150px;
+    margin: auto;
+}
+
+img{
+   
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 10px;
+   
+    
+}
+
+ .imagem-principal {
+    display: block;
+    margin: auto;
+    max-width: 1300px;
+    min-width: 320px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+
+.botoes{
+    padding-bottom: 35px;
+    
+    text-align: center;
+}
+
+.botoes a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.botoes a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background-color:var(--color3)
+}
+
+footer > p{
+   text-align: center;
+   padding: 0px;
+}
+
